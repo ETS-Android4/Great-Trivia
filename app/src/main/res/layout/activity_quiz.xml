@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--make vertically scrollable views to determine the layout width, height & background -->
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,6 +9,7 @@
     android:background="@color/background_color"
     android:layout_height="match_parent"
     tools:context="ma.inpt.quiztrivia.activities.QuizActivity">
+    <!--specify that the attributes that are within the view group that it's decelerated in are android related-->
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,7 +17,8 @@
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="89dp">
-
+    
+        <!--displaying the heart icon drawable and putting constraints on it-->
 
         <ImageView
             android:id="@+id/imgLifeLine1"
@@ -31,7 +34,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/heart_icon"
             tools:ignore="MissingConstraints" />
-
+        
+<!--displaying the second heart icon and putting constraints on it-->
         <ImageView
             android:id="@+id/imgLifeLine2"
             android:layout_width="wrap_content"
@@ -42,7 +46,7 @@
             app:layout_constraintStart_toEndOf="@+id/imgLifeLine3"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/heart_icon" />
-
+<!--displaying the third heart icon and displaying it-->
         <ImageView
             android:id="@+id/imgLifeLine3"
             android:layout_width="wrap_content"
@@ -53,7 +57,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/heart_icon" />
-
+<!--displaying th"29" following the requirements below and putting constraints in it-->
         <TextView
             android:id="@+id/txtTimer"
             android:layout_width="40dp"
@@ -73,7 +77,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtCategoryHeading" />
-
+<!--aligning in a verical directiong while connecting to the parent view-->
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
@@ -88,7 +92,7 @@
             app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintVertical_bias="0.48000002">
-
+<!-- displaying "what is the best full meaning of " following the requirements bellow and contraining it-->
             <TextView
                 android:id="@+id/txtTriviaQuestion"
                 android:layout_width="match_parent"
@@ -117,7 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
+<!--defining the "design" button and its characteristics with the font and setting the background-->
                 <Button
                     android:id="@+id/buttonA"
                     android:layout_width="wrap_content"
@@ -134,7 +138,7 @@
                     android:textColor="@color/white"
                     android:textSize="16dp"
                     android:textStyle="bold" />
-
+<!--defining the "operating" button and its characteristics-->
                 <Button
                     android:id="@+id/buttonB"
                     android:layout_width="wrap_content"
@@ -151,13 +155,13 @@
                     android:textSize="16dp"
                     android:textStyle="bold" />
             </LinearLayout>
-
+<!--aligning a horizontal layout-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
-
+<!--defining the"desing" button and its characteristics-->
                 <Button
                     android:id="@+id/buttonC"
                     android:layout_width="wrap_content"
@@ -173,7 +177,7 @@
                     android:textColor="@color/white"
                     android:textSize="16dp"
                     android:textStyle="bold" />
-
+<!--defining the "operating" button and its characteristics-->
                 <Button
                     android:id="@+id/buttonD"
                     android:layout_width="wrap_content"
@@ -191,7 +195,7 @@
             </LinearLayout>
 
         </LinearLayout>
-
+<!--diplaying the gtlogo and constraining it-->
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="150dp"
@@ -202,7 +206,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"></ImageView>
-
+<!--displaying "java" following the requirements below--
         <TextView
             android:id="@+id/txtCategoryHeading"
             android:layout_width="wrap_content"
