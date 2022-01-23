@@ -18,4 +18,4 @@ Great trivia INPT is a quiz app containing 5 categories: science, sports, histor
 ![alt text](https://github.com/zinebzoufir/QuizTrivia/blob/master/screenshots/9.png?raw=true)
 ![alt text](https://github.com/zinebzoufir/QuizTrivia/blob/master/screenshots/10.png?raw=true)
 ![alt text](https://github.com/zinebzoufir/QuizTrivia/blob/master/screenshots/11.png?raw=true)
-
+![WhatsApp Image 2022-01-23 at 11 09 59](https://user-images.githubusercontent.com/81419806/150675542-1e9ca14e-a16b-4248-90ea-3acde85be12d.jpeg)
